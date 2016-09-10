@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Aplicando BDD a testes de integração"
-date:   2016-01-12 15:28:00
+date:   2016-05-14 20:53:00
 categories: development
 ---
 
-Sabemos que BDD ('Behavior Driven Development') trouxe uma abordagem diferente quanto as metodologias de testes para guiar o desenvolvimento. Sua forma, aproximou ainda mais o TDD ('Test Driven Development') a linguagem que descreve o negócio. A proposta de Dan North era aproximar mais o aspecto comportamental do domínio do negócio. E pensando nisso, apliquei este conceito em um projeto a partir da API, seguindo uma abordagem top-down com foco no valor que a API entregaria aos consumidores. Bom, isso me levou a pensar em testes de integração. Mas como assim? 
+Sabemos que BDD ('Behavior Driven Development') trouxe uma abordagem diferente quanto as metodologias de testes para guiar o desenvolvimento. Sua forma, aproximou ainda mais o TDD ('Test Driven Development') a linguagem que descreve o negócio. A proposta de Dan North era aproximar mais o aspecto comportamental do domínio do negócio. E pensando nisso, apliquei este conceito em um projeto a partir da API, seguindo uma abordagem top-down com foco no valor que a API entregaria aos consumidores. Bom, isso me levou a pensar em testes automatizados de integração.
 
-[IMAGEM DE UMA FEATURE TESTANDO UM RECURSO DA API]
+[Imagem]
 
-A idéia principal de aplicações testáveis gira em torno do desacoplamento, quanto mais desacoplada sua aplicação mais ela é tesável. Para obter isso vou utilizar o OWIN que é um padrão aberto de desenvolvimento de interfaces desacopladas do servidor que nos permitirá obter back-end e front-end testáveis. A Microsoft disponibiliza um pacote de ferramentas de desenvolvimento para isso o 'Microsoft.Owin' e basta seguir os padrões especificados no OWIN. Explicar esse 'start do OWIN' pode tornar o POST longo e cansativo pois o objetivo aqui é abordar os testes através do BDD.
+A idéia principal de aplicações testáveis gira em torno do desacoplamento, quanto mais desacoplada sua aplicação mais ela é testável. Para obter isso vou utilizar o OWIN que é um padrão aberto de desenvolvimento de interfaces desacopladas do servidor que nos permitirá obter back-end e front-end testáveis. A Microsoft disponibiliza um pacote de ferramentas de desenvolvimento para isso o 'Microsoft.Owin' e basta seguir os padrões especificados no OWIN. Explicar esse 'start do OWIN' pode tornar o POST longo e cansativo pois o objetivo aqui é abordar os testes através do BDD.
 
 #Microsoft.OWIN.Testing
 
